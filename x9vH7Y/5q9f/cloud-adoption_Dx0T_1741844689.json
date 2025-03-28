@@ -38,7 +38,6 @@
         "punctuation": ".,;:!"
     },
     "no-multiple-space-blockquote": true,
-    "no-blanks-blockquote": true,
     "ol-prefix": {
         "style": "one_or_ordered"
     },
