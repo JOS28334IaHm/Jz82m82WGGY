@@ -118,7 +118,6 @@ Let's review this approach more in deep and what steps we need to apply:
 - **Using a specially modified JDBC URL**: after making a very simple modification to your system's JDBC URL string, 
 Testcontainers will provide a disposable stand-in database that can be used without requiring modification to your application code. (This is our approach)
 - **JUnit @Rule/@ClassRule**: This mode starts a database inside a container before your tests and tears it down afterwards. 
-
 ##### Database containers launched via JDBC URL scheme
 As long as we have TestContainers and the appropriate JDBC driver on your classpath, you can simply modify regular JDBC connection URLs to get a fresh containerized instance of the database each time your application starts up. No code changes
 
