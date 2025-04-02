@@ -2,7 +2,6 @@ examples/blogs__e2e-snapshots/snapshots.js
 examples/blogs__element-coverage/src
 examples/preprocessors__flow-browserify
 examples/blogs__testing-redux-store/src
-**/node_modules
 **/vendor
 **/dist
 # React DevTools extension source code
