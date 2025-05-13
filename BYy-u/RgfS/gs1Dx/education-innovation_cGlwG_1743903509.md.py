@@ -182,7 +182,6 @@ class CNNNetwork(nn.Module):
             nn.ReLU(),
             nn.Conv2d(256,512,kernel_size=(5,5)),
             nn.ReLU(),
-            nn.Conv2d(512,64,kernel_size=(5,5)),
             nn.ReLU(),
             nn.MaxPool2d(kernel_size=(2,2))
         )
